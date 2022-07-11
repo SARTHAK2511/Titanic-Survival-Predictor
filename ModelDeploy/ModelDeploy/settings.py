@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-g43^72wz_&-(c&+l^8xz4n!$a!iri3t3xdg#6**d4c0=ep@6!&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://titanic-survival-predictor-1.herokuapp.com','127.0.0.1']
 
 
 # Application definition
