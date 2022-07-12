@@ -2,7 +2,6 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 import pickle
-from matplotlib import image 
 import numpy as np
 # Create your views here.
 def home(request):
