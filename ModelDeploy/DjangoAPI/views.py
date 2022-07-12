@@ -30,7 +30,7 @@ def result(request):
     print(type(prediction))
     
     # return render(request,'result.html',{'result':prediction})
-    if result==1:
+    if prediction ==1:
         return render(request,'result.html',{'result':'Sorry , the passender died '})
     else :
         return render(request,'result.html',{'result':'Hurray ! the passenger survived '})
