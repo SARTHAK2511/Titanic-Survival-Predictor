@@ -1,4 +1,4 @@
-from tkinter import image_names
+
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 import pickle
